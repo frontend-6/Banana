@@ -1,7 +1,6 @@
 /* styles goes here */
 /* Clients  */
 h1 {
-    font-family: Lato;
     color: #3677fd;
     font-size: 50px;
     /* Приближение из-за подстановки шрифтов */
@@ -13,7 +12,6 @@ h1 {
 
 h3 {
     color: #3677fd;
-    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -21,7 +19,6 @@ h3 {
 
 p {  
     color: #5a5a5a;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
@@ -37,7 +34,7 @@ body {
     background-position: top;*/
 }
 
-h6 {
+h6, h3, p, h1 {
     margin: 0;
 }
 
@@ -86,12 +83,24 @@ a {
     height: 872px;
 }
 
+.flex-container>div {
+    margin-bottom: 50px;
+}
+
+.welcome__circle img {
+    margin-bottom: 0;
+}
+
 .welcome__menu {
     align-self: flex-end;
     width: 25px;
     height: 19px;
     color: white;
     margin-top: 32px;
+}
+
+.welcome__header {
+    margin-bottom: 40px;
 }
 
 .welcome__header h1 {
@@ -102,7 +111,7 @@ a {
     text-transform: uppercase;
 }
 
-.welcome__text {
+.welcome__text p {
     color: white;
     font-size: 16px;
     font-weight: 300;
@@ -117,13 +126,14 @@ background-color: white;
 border-radius: 28px;
 }
 
-.welcome__link {
+.flex-container .welcome__link {
 color: #3695ff;
 font-size: 16px;
 font-weight: 700;
 line-height: 30px;
 text-transform: uppercase;
 padding-top: 12px;
+margin-bottom: 131px;
 }
 
 
