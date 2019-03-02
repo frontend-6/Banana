@@ -1,16 +1,55 @@
 /* styles goes here */
  /* Clients  */
-h1{
+h2{
     font-family: Lato;
     color:  #3677fd;
-    font-size: 50px;/* Приближение из-за подстановки шрифтов */
+    font-size: 50px;
     font-weight: 300;
-    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    line-height: 24px;
     text-align: center;
 }
+
+.Hiremi_inscription{
+font-family: Lato;
+color:#ffffff;
+
+font-size: 49.99px;
+font-weight: 300;
+line-height: 39.421px;
+/* text-align: left; */
+}
+
+.Hiremi_Biginscription{
+font-family: Lato;
+color:#ffffff;
+font-size: 49.99px;
+font-weight: 700;
+line-height: 39.421px;
+/* text-align: left; */
+}
+
+.clients{
+    background-color: #f2f8ff;
+}
+
+.Hiremi{
+   background-color:  #326dfd;
+}
+
+.Hiremi_link_link{
+    font-family: Lato;
+    color:  #3695ff;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+
 * {
     box-sizing: border-box;
 }
+
 
 body {
     font-family: 'Lato', sans-serif;
