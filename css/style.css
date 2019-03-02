@@ -1,17 +1,45 @@
 /* styles goes here */
- /* Clients  */
-h1{
+/* Clients  */
+h1 {
     font-family: Lato;
-    color:  #3677fd;
-    font-size: 50px;/* Приближение из-за подстановки шрифтов */
+    color: #3677fd;
+    font-size: 50px;
+    /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
-    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
+
+h3 {
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+p {  
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+   /* background-image: url(../psd/Eskulap\ Template-Symu_co.png);
+    background-position: top;*/
+}
+.panel{
+    text-align: center;
+}
+
+img{
+    margin-bottom: 54px;
 }
