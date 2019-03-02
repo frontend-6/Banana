@@ -1,9 +1,9 @@
 /* styles goes here */
  /* Clients  */
 h2{
-    font-family: Lato;
     color:  #3677fd;
     font-size: 50px;
+    font-family: Lato;
     font-weight: 300;
     line-height: 24px;
     text-align: center;
@@ -12,7 +12,6 @@ h2{
 .Hiremi_inscription{
 font-family: Lato;
 color:#ffffff;
-
 font-size: 49.99px;
 font-weight: 300;
 line-height: 39.421px;
