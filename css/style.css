@@ -55,6 +55,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #3677fd;
+font-size: 50px;
+font-weight: 300;
+line-height: 35px;
+}
+
 h3 {
     color: #3677fd;
     font-size: 24px;
@@ -76,6 +83,7 @@ p {
 
 body {
     font-family: 'Lato', sans-serif;
+    text-align: center;
    /* background-image: url(../psd/Eskulap\ Template-Symu_co.png);
     background-position: top;*/
 }
@@ -92,6 +100,8 @@ a {
 #cookies {
     height: 72px;
     background-color: #194277;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 .cookies {
@@ -99,7 +109,7 @@ a {
     margin-top: 22px;
 }
 
-.cookies__text {
+.cookies__text h6{
     color: white;
     font-size: 14px;
     font-weight: 400;
@@ -113,13 +123,7 @@ a {
     line-height: 16px;
     text-align: center;
     padding-top: 6px;
-}
-
-.button--small {
-    width: 112px;
-    height: 30px;
-    background-color: white;
-    border-radius: 15px;
+    margin-top: 3px;
 }
 
 #welcome {
@@ -166,10 +170,24 @@ a {
 }
 
 .button {
-    width: 204px;
-height: 55px;
 background-color: white;
-border-radius: 28px;
+border: none;
+}
+
+.button--primary {
+    padding: 12px 70px;
+    border-radius: 28px;
+}
+
+
+.button:hover {
+    background-color: lightblue;
+}
+
+.button--small {
+    width: 112px;
+height: 30px;
+    border-radius: 15px;
 }
 
 .flex-container .welcome__link {
@@ -180,6 +198,15 @@ line-height: 30px;
 text-transform: uppercase;
 padding-top: 12px;
 margin-bottom: 131px;
+}
+
+#about_me {
+    padding: 50px;
+}
+
+#about_me h2 {
+    margin: 0;
+    margin-top: 30px;
 }
 
 
